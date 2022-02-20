@@ -30,8 +30,6 @@ main{
 }
 main .dice{
     background: hsl(150, 100%, 66%);
-    outline: none;
-    border: none;
     padding: 2rem;
     border-radius: 50%;
     position: absolute;
@@ -52,6 +50,7 @@ section .quote{
     text-align: center;
     color: hsl(201, 33%, 84%);
     font-size: 2.7rem;
+    font-weight: 800;
 }
 main .dice:hover{
     box-shadow: 0rem 0rem 5rem hsl(150, 100%, 66%);
